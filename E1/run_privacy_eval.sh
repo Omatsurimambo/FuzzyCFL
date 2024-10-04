@@ -1,0 +1,12 @@
+#!/bin/bash
+
+PYTHON_SCRIPT="privacy_eval.py"
+
+ROUND=50
+
+python3 $PYTHON_SCRIPT 1 $ROUND 1 1 0
+python3 $PYTHON_SCRIPT 0 $ROUND 1 1 0
+python3 $PYTHON_SCRIPT 1 $ROUND 1 0 1
+python3 $PYTHON_SCRIPT 0 $ROUND 1 1 0
+python3 $PYTHON_SCRIPT 1 $ROUND 0 1 1
+python3 $PYTHON_SCRIPT 0 $ROUND 1 1 0
