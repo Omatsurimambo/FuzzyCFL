@@ -176,6 +176,4 @@ python experiments.py --model 'mlp' \
               --isomerism False \
 ```
 
-## Citation
-If you find this code useful, please consider citing our paper
 
