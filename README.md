@@ -23,8 +23,8 @@ We tested using Python 3.9. We use PyTorch and you can install it based on your 
 conda create -n mingledpie python=3.9
 conda activate mingledpie
 
-pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
-pip install json torchvision argparse ecpy numpy torch time copy os pickle random itertools matplotlib
+pip install torch 1.10.0+cu113 torchvision 0.11.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+pip install numpy==1.24.4 torchvision==0.19.1 ECPy==1.2.5 matplotlib==3.7.5 pandas==2.0.3 seaborn==0.13.2 sklearn==0.0
 ```
 
 ## Evaluation options
@@ -176,4 +176,6 @@ python experiments.py --model 'mlp' \
               --isomerism False \
 ```
 
+## Citation
+If you find this code useful, please consider citing our paper
 
