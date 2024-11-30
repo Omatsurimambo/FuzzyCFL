@@ -37,6 +37,7 @@ seaborn==0.13.2
 six==1.16.0
 sklearn==0.0
 sympy==1.13.3
+tenseal==0.3.15
 threadpoolctl==3.5.0
 torch==2.4.1
 torchvision==0.19.1
