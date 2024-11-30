@@ -279,7 +279,7 @@ If you find this code useful, please consider citing our paper
   author = {Zhang, Cheng and Xu, Yang and Tan, Jianghao and An, Jiajie and Jin, Wenqiang}, 
   booktitle = {Network and Distributed System Security Symposium (NDSS)}, 
   year = {2025}  
-  doi={10.5281/zenodo.14135449}
+  doi={10.14722/ndss.2025.240195}
 }
 ```
 
