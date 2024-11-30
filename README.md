@@ -2,6 +2,8 @@
 
 Code for the paper "**MingledPie: A Cluster Mingling Approach for Mitigating Preference Profiling in CFL**".
 
+This code is part of the paper presented at the Network and Distributed System Security Symposium (NDSS).
+
 ## File and Folder Descriptions:
 
 ### Root Directory
